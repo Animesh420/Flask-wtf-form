@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Upload</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">  <!-- 1 -->
+    {{ form.hidden_tag() }}
+    {{ form.file }}
+    <input type="submit">
+</form>
+</body>
+</html>
+
